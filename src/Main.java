@@ -5,5 +5,8 @@ public class Main {
 
                 double result = calculator.add(3,5);
                 System.out.println("Das Ergebnis ist: "+result);
+
+                result = calculator.subtract( 4,3.5);
+                System.out.println("Das Ergebnis ist: "+result);
     }
 }
